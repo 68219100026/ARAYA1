@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แฟ้มสะสมผลงาน - แนะนำตนเอง (Portfolio)</title>
+    <!-- เชื่อมโยงไฟล์ CSS External -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ส่วนหัวของเว็บไซต์และเมนูนำทาง -->
+    <header>
+        <div class="logo">
+            <h2>MyPortfolio</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">เกี่ยวกับฉัน</a></li>
+                <li><a href="#skills">ทักษะ</a></li>
+                <li><a href="#works">ผลงาน</a></li>
+                <li><a href="#contact">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- เนื้อหาหลักของหน้าเว็บ -->
+    <main>
+
+        <!-- Section 1: แนะนำตัว (Anchor: #about) -->
+        <section id="about" class="hero-section">
+            <div class="profile-container">
+                <img src="img/รูปตัวเอง.jpg" alt="รูปโปรไฟล์ของฉัน" class="profile-img">
+                <div class="hero-text">
+                    <h1>สวัสดีค่ะ ฉันชื่อ อารยา แสงงาม</h1>
+                    <h3>นักศึกษาสาขาเทคโนโลยีสารสนเทศ / เว็บดีไซเนอร์</h3>
+                    <p>ยินดีต้อนรับสู่หน้าแนะนำตนเองของฉัน ฉันมีความสนใจเกี่ยวกับการพัฒนาเว็บไซต์ การออกแบบ UI/UX และการเรียนรู้เทคโนโลยีใหม่ๆ อยู่เสมอ</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: ทักษะและความสามารถ (Anchor: #skills) -->
+        <section id="skills" class="content-section">
+            <h2>ทักษะและความสามารถ (Skills)</h2>
+            <p>รายการทักษะทางด้านเทคนิคที่ได้เรียนรู้และฝึกฝน:</p>
+            <ul>
+                <li>การเขียนโค้ดแสดงผล HTML5 & CSS3</li>
+                <li>การจัดเลย์เอาต์ด้วย Flexbox & Responsive Design</li>
+                <li>การใช้งาน Git & GitHub พื้นฐาน</li>
+                <li>การออกแบบ UI เบื้องต้นด้วย Figma</li>
+            </ul>
+        </section>
+
+        <!-- Section 3: ผลงานที่ผ่านมา (Anchor: #works) -->
+        <section id="works" class="content-section">
+            <h2>ผลงานและโครงการ (Projects)</h2>
+            <p>ตัวอย่างโปรเจกต์ที่เคยทำระหว่างการศึกษา:</p>
+            <ol>
+                <li><strong>Single-Page Landing Page:</strong> เว็บไซต์แนะนำตนเองด้วย HTML/CSS</li>
+                <li><strong>E-Commerce UI Design:</strong> ออกแบบหน้าแอปร้านค้าออนไลน์</li>
+                <li><strong>Student Management System:</strong> ระบบจัดการข้อมูลนักศึกษาเบื้องต้น</li>
+            </ol>
+        </section>
+
+        <!-- Section 4: แบบฟอร์มติดต่อ (Anchor: #contact) -->
+        <section id="contact" class="content-section">
+            <h2>ติดต่อฉัน (Contact Me)</h2>
+            <p>หากคุณมีข้อสงสัยหรือต้องการสอบถามข้อมูลเพิ่มเติม สามารถส่งข้อความได้ผ่านแบบฟอร์มด้านล่าง:</p>
+
+            <!-- ฟอร์มติดต่อ -->
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">ชื่อ-นามสกุล:</label>
+                    <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">อีเมล:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">ข้อความ:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">ส่งข้อความ</button>
+            </form>
+
+            <!-- ลิงก์ไปยังโซเชียลมีเดียภายนอก -->
+            <div class="social-links">
+                <p>หรือติดตามช่องทางอื่นๆ ได้ที่:</p>
+                <a href="https://facebook.com" target="_blank">Facebook</a> |
+                <a href="https://line.me" target="_blank">Line</a> |
+                <a href="https://github.com" target="_blank">GitHub</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ส่วนท้ายของเว็บไซต์ -->
+    <footer>
+        <p>&copy; 2026 ARAYA. All Rights Reserved. | พัฒนาด้วย HTML & CSS</p>
+    </footer>
+
+</body>
+</html>
